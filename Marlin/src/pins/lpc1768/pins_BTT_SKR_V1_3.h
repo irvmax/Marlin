@@ -23,6 +23,11 @@
 
 #define BOARD_INFO_NAME "BTT SKR V1.3"
 
+// Laser PWM pin
+#define SPINDLE_LASER_ENA_PIN             P2_05   // digital pin
+#define SPINDLE_LASER_PWM_PIN             P2_03   // digital pin - MUST BE HARDWARE PWM
+//#define SPINDLE_DIR_PIN                    zz   // digital pin
+
 //
 // Trinamic Stallguard pins
 //
